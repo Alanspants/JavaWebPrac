@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="suv">
+    <output-path>$PROJECT_DIR$/out/artifacts/suv</output-path>
+    <root id="archive" name="suv.jar">
+      <element id="module-output" name="5_越野汽车发动机研发商" />
+    </root>
+  </artifact>
+</component>
