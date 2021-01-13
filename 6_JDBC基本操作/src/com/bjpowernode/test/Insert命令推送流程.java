@@ -9,7 +9,7 @@ public class Insert命令推送流程 {
 
     public static void main(String[] args) throws SQLException {
         // 货物
-        String sql = "insert into student values(2,'oj', 'm')";
+        String sql = "insert into student values(3,'Ann', 'f')";
         String userName = "root";
         String password = "990518Chz";
         String url = "jdbc:mysql://localhost:3306/bjpowernode";

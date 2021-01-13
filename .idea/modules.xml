@@ -8,6 +8,8 @@
       <module fileurl="file://$PROJECT_DIR$/4_运动汽车发动机研发商/4_运动汽车发动机研发商.iml" filepath="$PROJECT_DIR$/4_运动汽车发动机研发商/4_运动汽车发动机研发商.iml" />
       <module fileurl="file://$PROJECT_DIR$/5_越野汽车发动机研发商/5_越野汽车发动机研发商.iml" filepath="$PROJECT_DIR$/5_越野汽车发动机研发商/5_越野汽车发动机研发商.iml" />
       <module fileurl="file://$PROJECT_DIR$/6_JDBC基本操作/6_JDBC基本操作.iml" filepath="$PROJECT_DIR$/6_JDBC基本操作/6_JDBC基本操作.iml" />
+      <module fileurl="file://$PROJECT_DIR$/7_JDBC预编译SQL命令/7_JDBC预编译SQL命令.iml" filepath="$PROJECT_DIR$/7_JDBC预编译SQL命令/7_JDBC预编译SQL命令.iml" />
+      <module fileurl="file://$PROJECT_DIR$/8_JDBC批处理操作/8_JDBC批处理操作.iml" filepath="$PROJECT_DIR$/8_JDBC批处理操作/8_JDBC批处理操作.iml" />
     </modules>
   </component>
 </project>

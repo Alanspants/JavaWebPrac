@@ -34,7 +34,7 @@ public class Select命令推送流程 {
         }
 
         // Step 4
-        if (rsmd != null) rs.close();
+        if (rs != null) rs.close();
         if (ps != null) ps.close();
         if (con != null) con.close();
     }
