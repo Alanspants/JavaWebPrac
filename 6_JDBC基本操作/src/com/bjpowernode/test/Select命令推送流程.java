@@ -18,11 +18,19 @@ public class Select命令推送流程 {
 
         // Step 3
         ResultSet rs = ps.executeQuery(sql);
+
         // 获得当前临时表字段的个数和名称
         ResultSetMetaData rsmd = rs.getMetaData();
         int cc = rsmd.getColumnCount();
         for (int i = 1; i <= cc; i++) {
             System.out.println("字段名称" + rsmd.getColumnName(i));
+        }
+
+        // 遍历临时表所有数据行信息
+        while(rs.next()){
+            System.out.println("sid: " + rs.getInt("sid"));
+            System.out.println("sname: " + rs.getString("sname"));
+            System.out.println("sex: " + rs.getString("sex"));
         }
 
         // Step 4
