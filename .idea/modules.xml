@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/10_部门管理系统/10_部门管理系统.iml" filepath="$PROJECT_DIR$/10_部门管理系统/10_部门管理系统.iml" />
       <module fileurl="file://$PROJECT_DIR$/1_对外提供jar包工程/1_对外提供jar包工程.iml" filepath="$PROJECT_DIR$/1_对外提供jar包工程/1_对外提供jar包工程.iml" />
       <module fileurl="file://$PROJECT_DIR$/2_使用jar工程/2_使用jar工程.iml" filepath="$PROJECT_DIR$/2_使用jar工程/2_使用jar工程.iml" />
       <module fileurl="file://$PROJECT_DIR$/3_汽车组装工厂/3_汽车组装工厂.iml" filepath="$PROJECT_DIR$/3_汽车组装工厂/3_汽车组装工厂.iml" />
@@ -10,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/6_JDBC基本操作/6_JDBC基本操作.iml" filepath="$PROJECT_DIR$/6_JDBC基本操作/6_JDBC基本操作.iml" />
       <module fileurl="file://$PROJECT_DIR$/7_JDBC预编译SQL命令/7_JDBC预编译SQL命令.iml" filepath="$PROJECT_DIR$/7_JDBC预编译SQL命令/7_JDBC预编译SQL命令.iml" />
       <module fileurl="file://$PROJECT_DIR$/8_JDBC批处理操作/8_JDBC批处理操作.iml" filepath="$PROJECT_DIR$/8_JDBC批处理操作/8_JDBC批处理操作.iml" />
+      <module fileurl="file://$PROJECT_DIR$/9_JDBC事务管理/9_JDBC事务管理.iml" filepath="$PROJECT_DIR$/9_JDBC事务管理/9_JDBC事务管理.iml" />
     </modules>
   </component>
 </project>
