@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/1_对外提供jar包工程/1_对外提供jar包工程.iml" filepath="$PROJECT_DIR$/1_对外提供jar包工程/1_对外提供jar包工程.iml" />
       <module fileurl="file://$PROJECT_DIR$/2_使用jar工程/2_使用jar工程.iml" filepath="$PROJECT_DIR$/2_使用jar工程/2_使用jar工程.iml" />
+      <module fileurl="file://$PROJECT_DIR$/3_汽车组装工厂/3_汽车组装工厂.iml" filepath="$PROJECT_DIR$/3_汽车组装工厂/3_汽车组装工厂.iml" />
     </modules>
   </component>
 </project>
