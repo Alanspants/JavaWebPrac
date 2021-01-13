@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/3_汽车组装工厂/3_汽车组装工厂.iml" filepath="$PROJECT_DIR$/3_汽车组装工厂/3_汽车组装工厂.iml" />
       <module fileurl="file://$PROJECT_DIR$/4_运动汽车发动机研发商/4_运动汽车发动机研发商.iml" filepath="$PROJECT_DIR$/4_运动汽车发动机研发商/4_运动汽车发动机研发商.iml" />
       <module fileurl="file://$PROJECT_DIR$/5_越野汽车发动机研发商/5_越野汽车发动机研发商.iml" filepath="$PROJECT_DIR$/5_越野汽车发动机研发商/5_越野汽车发动机研发商.iml" />
+      <module fileurl="file://$PROJECT_DIR$/6_JDBC基本操作/6_JDBC基本操作.iml" filepath="$PROJECT_DIR$/6_JDBC基本操作/6_JDBC基本操作.iml" />
     </modules>
   </component>
 </project>
