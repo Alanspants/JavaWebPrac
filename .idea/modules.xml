@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/10_部门管理系统/10_部门管理系统.iml" filepath="$PROJECT_DIR$/10_部门管理系统/10_部门管理系统.iml" />
       <module fileurl="file://$PROJECT_DIR$/11_基于流程封装DAO/11_基于流程封装DAO.iml" filepath="$PROJECT_DIR$/11_基于流程封装DAO/11_基于流程封装DAO.iml" />
       <module fileurl="file://$PROJECT_DIR$/12_基于特征封装实体类/12_基于特征封装实体类.iml" filepath="$PROJECT_DIR$/12_基于特征封装实体类/12_基于特征封装实体类.iml" />
+      <module fileurl="file://$PROJECT_DIR$/13_基于功能封装工具类/13_基于功能封装工具类.iml" filepath="$PROJECT_DIR$/13_基于功能封装工具类/13_基于功能封装工具类.iml" />
       <module fileurl="file://$PROJECT_DIR$/1_对外提供jar包工程/1_对外提供jar包工程.iml" filepath="$PROJECT_DIR$/1_对外提供jar包工程/1_对外提供jar包工程.iml" />
       <module fileurl="file://$PROJECT_DIR$/2_使用jar工程/2_使用jar工程.iml" filepath="$PROJECT_DIR$/2_使用jar工程/2_使用jar工程.iml" />
       <module fileurl="file://$PROJECT_DIR$/3_汽车组装工厂/3_汽车组装工厂.iml" filepath="$PROJECT_DIR$/3_汽车组装工厂/3_汽车组装工厂.iml" />
@@ -14,6 +15,7 @@
       <module fileurl="file://$PROJECT_DIR$/7_JDBC预编译SQL命令/7_JDBC预编译SQL命令.iml" filepath="$PROJECT_DIR$/7_JDBC预编译SQL命令/7_JDBC预编译SQL命令.iml" />
       <module fileurl="file://$PROJECT_DIR$/8_JDBC批处理操作/8_JDBC批处理操作.iml" filepath="$PROJECT_DIR$/8_JDBC批处理操作/8_JDBC批处理操作.iml" />
       <module fileurl="file://$PROJECT_DIR$/9_JDBC事务管理/9_JDBC事务管理.iml" filepath="$PROJECT_DIR$/9_JDBC事务管理/9_JDBC事务管理.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DEMO/DEMO.iml" filepath="$PROJECT_DIR$/DEMO/DEMO.iml" />
     </modules>
   </component>
 </project>
