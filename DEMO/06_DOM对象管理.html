@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script type="text/javascript">
+        function func1() {
+            // 1. 获得页面中所有checkbox关联的dom对象
+            var domArray = document.getElementsByTagName("input");
+            // 2. 获得标题行checkbox标签的check属性值
+            var flag = domArray[0].checked;
+            // 3. 对数据行中所有checkbox的checked属性值进行统一赋值
+            for (var i = 1; i < domArray.length; i++) {
+                var domObj = domArray[i];
+                domObj.checked = flag;
+            }
+        }
+    </script>
+</head>
+<body>
+<center>
+    <table border="2">
+        <tr align="center">
+            <td>
+                <input type="checkbox" onclick="func1()">全选/全不选
+            </td>
+            <td>部门编号</td>
+            <td>部门名称</td>
+            <td>部门位置</td>
+            <td colspan="2">操作</td>
+        </tr>
+        <tr style="background-color: yellow">
+            <td>
+                <input type="checkbox">
+            </td>
+            <td>10</td>
+            <td>车险部门</td>
+            <td>北京</td>
+            <td><a href="">部门删除</a></td>
+            <td><a href="">部门详细信息</a></td>
+        </tr>
+        <tr style="background-color: green">
+            <td>
+                <input type="checkbox">
+            </td>
+            <td>10</td>
+            <td>车险部门</td>
+            <td>北京</td>
+            <td><a href="">部门删除</a></td>
+            <td><a href="">部门详细信息</a></td>
+        </tr>
+        <tr style="background-color: yellow">
+            <td>
+                <input type="checkbox">
+            </td>
+            <td>10</td>
+            <td>车险部门</td>
+            <td>北京</td>
+            <td><a href="">部门删除</a></td>
+            <td><a href="">部门详细信息</a></td>
+        </tr>
+        <tr style="background-color: green">
+            <td>
+                <input type="checkbox">
+            </td>
+            <td>10</td>
+            <td>车险部门</td>
+            <td>北京</td>
+            <td><a href="">部门删除</a></td>
+            <td><a href="">部门详细信息</a></td>
+        </tr>
+        <tr style="background-color: yellow">
+            <td>
+                <input type="checkbox">
+            </td>
+            <td>10</td>
+            <td>车险部门</td>
+            <td>北京</td>
+            <td><a href="">部门删除</a></td>
+            <td><a href="">部门详细信息</a></td>
+        </tr>
+        <tr style="background-color: green">
+            <td>
+                <input type="checkbox">
+            </td>
+            <td>10</td>
+            <td>车险部门</td>
+            <td>北京</td>
+            <td><a href="">部门删除</a></td>
+            <td><a href="">部门详细信息</a></td>
+        </tr>
+    </table>
+</center>
+</body>
+</html>
