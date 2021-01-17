@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="15_SecondWebsite" />
+        <module name="14_FirstWebsite" />
+        <module name="16_Serlvet_Interface_Implementation" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="01_FirstWebsite" target="1.8" />
+      <module name="02_SecondWebsite" target="1.8" />
+      <module name="14_FirstWebsite" target="1.8" />
+      <module name="15_SecondWebsite" target="1.8" />
+      <module name="16_Serlvet_Interface_Implementation" target="1.8" />
+      <module name="test" target="1.8" />
+      <module name="ttt" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
