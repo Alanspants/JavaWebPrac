@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="jar" name="bjpowernode">
-    <output-path>$PROJECT_DIR$/out/artifacts/bjpowernode</output-path>
-    <root id="archive" name="bjpowernode.jar">
-      <element id="module-output" name="1_对外提供jar包工程" />
-    </root>
-  </artifact>
-</component>
