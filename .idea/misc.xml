@@ -5,6 +5,8 @@
     <file type="web" url="file://$PROJECT_DIR$/../14_FirstWebsite" />
     <file type="web" url="file://$PROJECT_DIR$/../15_SecondWebsite" />
     <file type="web" url="file://$PROJECT_DIR$/../16_Serlvet_Interface_Implementation" />
+    <file type="web" url="file://$PROJECT_DIR$/../17_HttpServletRequest" />
+    <file type="web" url="file://$PROJECT_DIR$/../18_HttpServletResponse" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -12,6 +14,8 @@
         <option value="$PROJECT_DIR$/../14_FirstWebsite/pom.xml" />
         <option value="$PROJECT_DIR$/../15_SecondWebsite/pom.xml" />
         <option value="$PROJECT_DIR$/../16_Serlvet_Interface_Implementation/pom.xml" />
+        <option value="$PROJECT_DIR$/../17_HttpServletResponse/pom.xml" />
+        <option value="$PROJECT_DIR$/../17_HttpServletRequest/pom.xml" />
       </list>
     </option>
   </component>

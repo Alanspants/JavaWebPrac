@@ -6,9 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="16_Serlvet_Interface_Implementation" />
+        <module name="17_HttpServletRequest" />
         <module name="15_SecondWebsite" />
         <module name="14_FirstWebsite" />
-        <module name="16_Serlvet_Interface_Implementation" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -17,6 +18,8 @@
       <module name="14_FirstWebsite" target="1.8" />
       <module name="15_SecondWebsite" target="1.8" />
       <module name="16_Serlvet_Interface_Implementation" target="1.8" />
+      <module name="17_HttpServletRequest" target="1.8" />
+      <module name="18_HttpServletResponse" target="1.8" />
       <module name="test" target="1.8" />
       <module name="ttt" target="1.8" />
     </bytecodeTargetLevel>
