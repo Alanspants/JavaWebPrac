@@ -6,12 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="18_DeptEmpManageSYS" />
-        <module name="18_DeptEmpManageSys" />
-        <module name="16_Serlvet_Interface_Implementation" />
-        <module name="17_HttpServletRequest" />
-        <module name="15_SecondWebsite" />
-        <module name="14_FirstWebsite" />
+        <module name="ManageSys" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -24,6 +19,7 @@
       <module name="18_DeptEmpManageSYS" target="1.8" />
       <module name="18_DeptEmpManageSys" target="1.8" />
       <module name="18_HttpServletResponse" target="1.8" />
+      <module name="ManageSys" target="1.8" />
       <module name="test" target="1.8" />
       <module name="ttt" target="1.8" />
     </bytecodeTargetLevel>

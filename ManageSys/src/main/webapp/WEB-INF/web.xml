@@ -5,26 +5,25 @@
          version="4.0">
     <servlet>
         <servlet-name>DeptAddServlet</servlet-name>
-        <servlet-class>bjpowernode.controller.DeptAddServlet</servlet-class>
+        <servlet-class>com.bjpowernode.controller.DeptAddServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>DeptDeleteServlet</servlet-name>
-        <servlet-class>bjpowernode.controller.DeptDeleteServlet</servlet-class>
+        <servlet-class>com.bjpowernode.controller.DeptDeleteServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>DeptFindByIdServlet</servlet-name>
-        <servlet-class>bjpowernode.controller.DeptFindByIdServlet</servlet-class>
+        <servlet-class>com.bjpowernode.controller.DeptFindByIdServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>DeptFindServlet</servlet-name>
-        <servlet-class>bjpowernode.controller.DeptFindServlet</servlet-class>
+        <servlet-class>com.bjpowernode.controller.DeptFindServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>DeptUpdateServlet</servlet-name>
-        <servlet-class>bjpowernode.controller.DeptUpdateServlet</servlet-class>
+        <servlet-class>com.bjpowernode.controller.DeptUpdateServlet</servlet-class>
     </servlet>
-
-
+    
     <servlet-mapping>
         <servlet-name>DeptAddServlet</servlet-name>
         <url-pattern>/dept/add</url-pattern>
@@ -35,7 +34,7 @@
     </servlet-mapping>
     <servlet-mapping>
         <servlet-name>DeptFindByIdServlet</servlet-name>
-        <url-pattern>/dept/FindById</url-pattern>
+        <url-pattern>/dept/findById</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
         <servlet-name>DeptFindServlet</servlet-name>
@@ -45,9 +44,9 @@
         <servlet-name>DeptUpdateServlet</servlet-name>
         <url-pattern>/dept/update</url-pattern>
     </servlet-mapping>
-
+    
     <welcome-file-list>
         <welcome-file>login.html</welcome-file>
     </welcome-file-list>
-
+    
 </web-app>

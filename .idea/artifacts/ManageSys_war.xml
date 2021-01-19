@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ManageSys:war">
+    <output-path>$PROJECT_DIR$/ManageSys/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>ManageSys</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="ManageSys-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="ManageSys:war exploded" />
+    </root>
+  </artifact>
+</component>

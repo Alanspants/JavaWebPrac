@@ -9,6 +9,7 @@
     <file type="web" url="file://$PROJECT_DIR$/../18_DeptEmpManageSYS" />
     <file type="web" url="file://$PROJECT_DIR$/../18_HttpServletResponse" />
     <file type="web" url="file://$PROJECT_DIR$/18_DeptEmpManageSys" />
+    <file type="web" url="file://$PROJECT_DIR$/ManageSys" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -19,7 +20,7 @@
         <option value="$PROJECT_DIR$/../17_HttpServletResponse/pom.xml" />
         <option value="$PROJECT_DIR$/../17_HttpServletRequest/pom.xml" />
         <option value="$PROJECT_DIR$/../18_DeptEmpManageSYS/pom.xml" />
-        <option value="$PROJECT_DIR$/18_DeptEmpManageSys/pom.xml" />
+        <option value="$PROJECT_DIR$/ManageSys/pom.xml" />
       </list>
     </option>
   </component>
