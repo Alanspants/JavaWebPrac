@@ -25,7 +25,8 @@ public class DeptAddServlet extends HttpServlet {
 
         // 2. 调用dao对象推送insert命令得到处理结果
         dept = new Dept(null, dname, loc);
-        flag = dao.insert(dept);
+//        flag = dao.insert(dept);
+        flag = dao.insert(dept, request);
 
         // 3. 调用响应对象将处理结果写入到响应体中
 //        response.setContentType("text/html;charset=utf-8");

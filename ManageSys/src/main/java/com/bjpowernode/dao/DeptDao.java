@@ -4,6 +4,7 @@ package com.bjpowernode.dao;
 import com.bjpowernode.entity.Dept;
 import com.bjpowernode.util.JdbcUtil;
 
+import javax.servlet.http.HttpServletRequest;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -28,6 +29,24 @@ public class DeptDao {
             throwables.printStackTrace();
         } finally {
             util.close();
+        }
+
+        return flag;
+    }
+
+    public int insert(Dept dept, HttpServletRequest request) {
+        String sql = "insert into dept (dname, loc) values (?, ?)";
+        PreparedStatement ps = util.getPs(sql, request);
+        int flag = 0;
+
+        try {
+            ps.setString(1, dept.getDname());
+            ps.setString(2, dept.getLoc());
+            flag = ps.executeUpdate();
+        } catch (SQLException throwables) {
+            throwables.printStackTrace();
+        } finally {
+            util.close(request);
         }
 
         return flag;
