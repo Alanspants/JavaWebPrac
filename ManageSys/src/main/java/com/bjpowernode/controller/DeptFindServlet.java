@@ -7,6 +7,7 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.List;
@@ -17,6 +18,13 @@ public class DeptFindServlet extends HttpServlet {
 
         DeptDao dao = new DeptDao();
         PrintWriter out = null;
+
+//        // 询问来访者身份
+//        HttpSession session = request.getSession(false);
+//        if(session == null){
+//            request.getRequestDispatcher("/login_error.html").forward(request, response);
+//            return;
+//        }
 
         // 1. 调用dao对象推送查询命令 得到部门信息集合 (List<Dept>）
         List<Dept> deptList = dao.findAll();

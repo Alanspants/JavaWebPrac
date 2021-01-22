@@ -8,6 +8,7 @@
     <file type="web" url="file://$PROJECT_DIR$/../17_HttpServletRequest" />
     <file type="web" url="file://$PROJECT_DIR$/../18_DeptEmpManageSYS" />
     <file type="web" url="file://$PROJECT_DIR$/../18_HttpServletResponse" />
+    <file type="web" url="file://$PROJECT_DIR$/14_Filter" />
     <file type="web" url="file://$PROJECT_DIR$/18_DeptEmpManageSys" />
     <file type="web" url="file://$PROJECT_DIR$/ManageSys" />
   </component>
@@ -21,6 +22,7 @@
         <option value="$PROJECT_DIR$/../17_HttpServletRequest/pom.xml" />
         <option value="$PROJECT_DIR$/../18_DeptEmpManageSYS/pom.xml" />
         <option value="$PROJECT_DIR$/ManageSys/pom.xml" />
+        <option value="$PROJECT_DIR$/14_Filter/pom.xml" />
       </list>
     </option>
   </component>

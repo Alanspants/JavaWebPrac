@@ -6,12 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="14_Filter" />
         <module name="ManageSys" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="01_FirstWebsite" target="1.8" />
       <module name="02_SecondWebsite" target="1.8" />
+      <module name="14_Filter" target="1.8" />
       <module name="14_FirstWebsite" target="1.8" />
       <module name="15_SecondWebsite" target="1.8" />
       <module name="16_Serlvet_Interface_Implementation" target="1.8" />

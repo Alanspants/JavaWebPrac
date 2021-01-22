@@ -38,6 +38,7 @@ public class LoginServlet extends HttpServlet {
                 for (Cookie cookie : cookieArray) {
                     String keyName = cookie.getName();
                     if ("bjpowernode".equals(keyName)) {
+                        request.getSession(); // 申请令牌
                         request.getRequestDispatcher("/index.html").forward(request, response);
                         return;
                     }
@@ -58,6 +59,7 @@ public class LoginServlet extends HttpServlet {
                     cookie.setMaxAge(60 * 60 * 24 * 10);
                     response.addCookie(cookie);
                 }
+                request.getSession();  // 申请令牌
                 request.getRequestDispatcher("/index.html").forward(request, response);
                 return;
             }

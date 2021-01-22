@@ -27,6 +27,22 @@
         <servlet-name>LoginServlet</servlet-name>
         <servlet-class>com.bjpowernode.controller.LoginServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>EmpAddServlet</servlet-name>
+        <servlet-class>com.bjpowernode.controller.EmpAddServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>EmpFindServlet</servlet-name>
+        <servlet-class>com.bjpowernode.controller.EmpFindServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>EmpInitServlet</servlet-name>
+        <servlet-class>com.bjpowernode.controller.EmpInitServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>EmpFindByIdServlet</servlet-name>
+        <servlet-class>com.bjpowernode.controller.EmpFindByIdServlet</servlet-class>
+    </servlet>
 
     <servlet-mapping>
         <servlet-name>DeptAddServlet</servlet-name>
@@ -52,6 +68,23 @@
         <servlet-name>LoginServlet</servlet-name>
         <url-pattern>/login</url-pattern>
     </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>EmpAddServlet</servlet-name>
+        <url-pattern>/emp/add</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>EmpFindServlet</servlet-name>
+        <url-pattern>/emp/find</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>EmpInitServlet</servlet-name>
+        <url-pattern>/emp/init</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>EmpFindByIdServlet</servlet-name>
+        <url-pattern>/emp/findById</url-pattern>
+    </servlet-mapping>
+    
     
     <welcome-file-list>
         <welcome-file>login</welcome-file>
@@ -60,4 +93,13 @@
     <listener>
         <listener-class>com.bjpowernode.listener.OneListener</listener-class>
     </listener>
+
+    <filter>
+        <filter-name>safeFilter</filter-name>
+        <filter-class>com.bjpowernode.filter.SafeFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>safeFilter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
 </web-app>

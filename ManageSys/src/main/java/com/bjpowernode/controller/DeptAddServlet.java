@@ -2,6 +2,7 @@ package com.bjpowernode.controller;
 
 import com.bjpowernode.dao.DeptDao;
 import com.bjpowernode.entity.Dept;
+import com.bjpowernode.service.DeptService;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
@@ -14,7 +15,8 @@ public class DeptAddServlet extends HttpServlet {
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String dname, loc;
-        DeptDao dao = new DeptDao();
+//        DeptDao dao = new DeptDao();
+        DeptService service = new DeptService();
         Dept dept = null;
         int flag = 0;
         PrintWriter out = null;
@@ -25,8 +27,9 @@ public class DeptAddServlet extends HttpServlet {
 
         // 2. 调用dao对象推送insert命令得到处理结果
         dept = new Dept(null, dname, loc);
+        flag = service.deptInsert(dept);
 //        flag = dao.insert(dept);
-        flag = dao.insert(dept, request);
+//        flag = dao.insert(dept, request);
 
         // 3. 调用响应对象将处理结果写入到响应体中
 //        response.setContentType("text/html;charset=utf-8");
