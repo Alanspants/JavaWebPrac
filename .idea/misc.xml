@@ -11,6 +11,7 @@
     <file type="web" url="file://$PROJECT_DIR$/14_Filter" />
     <file type="web" url="file://$PROJECT_DIR$/18_DeptEmpManageSys" />
     <file type="web" url="file://$PROJECT_DIR$/ManageSys" />
+    <file type="web" url="file://$PROJECT_DIR$/MVCRefactorManageSys" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -23,6 +24,7 @@
         <option value="$PROJECT_DIR$/../18_DeptEmpManageSYS/pom.xml" />
         <option value="$PROJECT_DIR$/ManageSys/pom.xml" />
         <option value="$PROJECT_DIR$/14_Filter/pom.xml" />
+        <option value="$PROJECT_DIR$/MVCRefactorManageSys/pom.xml" />
       </list>
     </option>
   </component>

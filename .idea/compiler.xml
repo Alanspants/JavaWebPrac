@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="14_Filter" />
         <module name="ManageSys" />
+        <module name="MVCRefactorManageSys" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -22,6 +23,7 @@
       <module name="18_DeptEmpManageSys" target="1.8" />
       <module name="18_HttpServletResponse" target="1.8" />
       <module name="ManageSys" target="1.8" />
+      <module name="MVCRefactorManageSys" target="1.8" />
       <module name="test" target="1.8" />
       <module name="ttt" target="1.8" />
     </bytecodeTargetLevel>

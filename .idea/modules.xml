@@ -17,7 +17,9 @@
       <module fileurl="file://$PROJECT_DIR$/8_JDBC批处理操作/8_JDBC批处理操作.iml" filepath="$PROJECT_DIR$/8_JDBC批处理操作/8_JDBC批处理操作.iml" />
       <module fileurl="file://$PROJECT_DIR$/9_JDBC事务管理/9_JDBC事务管理.iml" filepath="$PROJECT_DIR$/9_JDBC事务管理/9_JDBC事务管理.iml" />
       <module fileurl="file://$PROJECT_DIR$/DEMO/DEMO.iml" filepath="$PROJECT_DIR$/DEMO/DEMO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MVCRefactorManageSys/MVCRefactorManageSys.iml" filepath="$PROJECT_DIR$/MVCRefactorManageSys/MVCRefactorManageSys.iml" />
       <module fileurl="file://$PROJECT_DIR$/ManageSys/ManageSys.iml" filepath="$PROJECT_DIR$/ManageSys/ManageSys.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TransactionManagement/TransactionManagement.iml" filepath="$PROJECT_DIR$/TransactionManagement/TransactionManagement.iml" />
     </modules>
   </component>
 </project>

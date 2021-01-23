@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="MVCRefactorManageSys:war">
+    <output-path>$PROJECT_DIR$/MVCRefactorManageSys/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>MVCRefactorManageSys</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="MVCRefactorManageSys-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="MVCRefactorManageSys:war exploded" />
+    </root>
+  </artifact>
+</component>
